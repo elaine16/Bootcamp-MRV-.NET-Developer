@@ -26,8 +26,10 @@ class minhaClasse{
     static void Main(string[] args) { 
 
             int a, b;
-            a = Convert.ToInt32(Console.ReadLine());
-            b = Convert.ToInt32(Console.ReadLine());
+            
+            string[] valores = Console.ReadLine().Split();
+            a = int.Parse(valores[0]);
+            b = int.Parse(valores[1]);
 
             int x = a + b; 
 
