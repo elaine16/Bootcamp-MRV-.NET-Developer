@@ -26,9 +26,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CS_Uri_Awnsers
+namespace Desafios
 {
-    class Program2165
+    class Tuitando
     {
         static void Main(string[] args)
         {
